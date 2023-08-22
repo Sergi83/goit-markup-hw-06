@@ -1,6 +1,7 @@
 /* ====== VARIABLES ====== */
 
 :root {
+  /* colors */
   --primary-accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
   --accent-light-color: #e7e9fc;
@@ -8,23 +9,36 @@
   --secondary-light-color: #f4f4fd;
   --primary-dark-color: #434455;
   --secondary-dark-color: #2e2f42;
-  --success-message-color: #31d0aa;
+  --social-links-color: #31d0aa;
   --primary-grey-color: #8e8f99;
   --modal-bg-color: #fcfcfc;
-  --backdrop-bg-color: rgba(46, 47, 66, 0.4);
+  --backdrop-inputs-color: rgba(46, 47, 66, 0.4);
   --close-icon-color: rgba(0, 0, 0, 0.1);
+
+  /* fonts */
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --button-letter-spacing: 0.04em;
+
+  --base-fz: 16px;
+  --base-fw: 500;
+
+  --base-text-line-height: 1.5;
+
   --primary-letter-spacing: 0.02em;
+  --secondary-letter-spacing: 0.04em;
+
+  /* transition */
   --transition-timing: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* decor */
+  --primary-bd-rad: 4px;
+  --secondary-bd-rad: 2px;
+  --round-bd-rad: 50%;
+
+  /* box shadows */
   --box-shadow-header: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  --box-shadow-button: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  --boxshadow-portf-btn: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  --box-shadow-btnfilter: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  --box-shadow-hero-footer: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   --box-shadow-cards: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -32,6 +46,12 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   --box-shadow-modal: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+
+  /* commented */
+  --boxshadow-portf-btn: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --box-shadow-btnfilter: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /* ====== /VARIABLES ====== */
 
@@ -62,8 +82,8 @@ img {
 /* наслідування (inheritance) */
 body {
   font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: var(--base-fz);
+  line-height: var(--base-text-line-height);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-dark-color);
   background-color: var(--primary-light-color);
@@ -78,13 +98,11 @@ button {
 
 button {
   font-style: normal;
-  /* font-family: var(--primary-font); */
-  font-size: 16px;
-  font-weight: 500;
-  /* line-height: 1.5; */
-  letter-spacing: var(--button-letter-spacing);
+  font-size: var(--base-fz);
+  font-weight: var(--base-fw);
+  letter-spacing: var(--secondary-letter-spacing);
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: var(--primary-bd-rad);
   transition: background-color var(--transition-timing);
 }
 
@@ -185,7 +203,7 @@ button:focus {
   position: relative;
   display: block;
   padding: 24px 0;
-  font-weight: 500;
+  font-weight: var(--base-fw);
   color: var(--secondary-dark-color);
   transition: color var(--transition-timing);
 }
@@ -201,7 +219,7 @@ button:focus {
   height: 4px;
   display: block;
   background-color: currentColor;
-  border-radius: 2px;
+  border-radius: var(--secondary-bd-rad);
   content: '';
 }
 
@@ -260,7 +278,7 @@ button:focus {
   display: block;
   background-color: var(--primary-accent-color);
   color: var(--primary-light-color);
-  box-shadow: var(--box-shadow-button);
+  box-shadow: var(--box-shadow-hero-footer);
 }
 
 /* ====== /HERO ====== */
@@ -290,14 +308,14 @@ button:focus {
   width: 100%;
   height: 112px;
   background-color: var(--secondary-light-color);
-  border-radius: 4px;
+  border-radius: var(--primary-bd-rad);
 }
 .features-item-icon {
 }
 
 .features-item-header {
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: var(--base-fw);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--primary-letter-spacing);
@@ -375,13 +393,13 @@ button:focus {
 }
 
 .team-item-header {
-  font-weight: 500;
+  font-weight: var(--base-fw);
   font-size: 20px;
   line-height: 1.2;
 }
 
 .team-item-text {
-  line-height: 1.5;
+  line-height: var(--base-text-line-height);
 }
 
 .team-item-list {
@@ -407,7 +425,7 @@ button:focus {
   width: 100%;
   height: 100%;
   background-color: var(--primary-accent-color);
-  border-radius: 50%;
+  border-radius: var(--round-bd-rad);
   transition: background-color var(--transition-timing);
 }
 
@@ -463,7 +481,7 @@ button:focus {
   padding: 16px 32px;
   color: var(--primary-grey-color);
   border: 1px solid currentColor;
-  border-radius: 4px;
+  border-radius: var(--primary-bd-rad);
   transition: border-color var(--transition-timing),
     color var(--transition-timing);
 }
@@ -573,7 +591,7 @@ button:focus {
 
 .portfolio-card-header {
   margin-bottom: 8px;
-  font-weight: 500;
+  font-weight: var(--base-fw);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--primary-letter-spacing);
@@ -637,8 +655,8 @@ button:focus {
 }
 
 .footer-social-text {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: var(--base-fz);
+  font-weight: var(--base-fw);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-light-color);
   margin-bottom: 16px;
@@ -664,7 +682,7 @@ button:focus {
   width: 100%;
   height: 100%;
   background-color: var(--primary-accent-color);
-  border-radius: 50%;
+  border-radius: var(--round-bd-rad);
   transition: background-color var(--transition-timing);
 }
 
@@ -675,7 +693,7 @@ button:focus {
 .footer-social-link:hover,
 .footer-social-link:focus,
 .footer-social-link:active {
-  background-color: var(--success-message-color);
+  background-color: var(--social-links-color);
 }
 
 /* footer form */
@@ -688,9 +706,9 @@ button:focus {
 
 .footer-form-paragraph {
   margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: var(--base-fw);
+  font-size: var(--base-fz);
+  line-height: var(--base-text-line-height);
   letter-spacing: var(--primary-letter-spacing);
   color: var(--primary-light-color);
 }
@@ -711,11 +729,11 @@ button:focus {
   border: 1px solid var(--primary-light-color);
   background-color: transparent;
   font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: var(--button-letter-spacing);
+  line-height: var(--base-text-line-height);
+  letter-spacing: var(--secondary-letter-spacing);
   padding-left: 16px;
-  box-shadow: var(--box-shadow-button);
-  border-radius: 4px;
+  box-shadow: var(--box-shadow-hero-footer);
+  border-radius: var(--primary-bd-rad);
   color: var(--primary-light-color);
 
   /* margin-top: 16px;
@@ -744,14 +762,14 @@ button:focus {
   justify-content: center;
   align-items: center;
   font-family: var(--primary-font);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: var(--button-letter-spacing);
+  font-size: var(--base-fz);
+  font-weight: var(--base-fw);
+  line-height: var(--base-text-line-height);
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--primary-light-color);
   background-color: var(--primary-accent-color);
   border: none;
-  /* border-radius: 4px; */
+  /* border-radius: var(--primary-bd-rad); */
   text-transform: capitalize;
 
   /* align-self: end; */
@@ -777,7 +795,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background-color: var(--backdrop-bg-color);
+  background-color: var(--backdrop-inputs-color);
   transition: opacity var(--transition-timing),
     visibility var(--transition-timing);
 }
@@ -797,7 +815,7 @@ button:focus {
   width: 408px;
   min-height: 584px;
   padding: 72px 24px 24px 24px;
-  border-radius: 4px;
+  border-radius: var(--primary-bd-rad);
   background: var(--modal-bg-color);
   box-shadow: var(--box-shadow-modal);
   transform: translate(-50%, -50%) scale(1);
@@ -817,7 +835,7 @@ button:focus {
   line-height: 0;
   background-color: var(--accent-light-color);
   border: 1px solid var(--close-icon-color);
-  border-radius: 50%;
+  border-radius: var(--round-bd-rad);
   transition: background-color var(--transition-timing),
     border var(--transition-timing);
 }
@@ -830,9 +848,9 @@ button:focus {
 }
 
 .modal-message {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: var(--base-fw);
+  font-size: var(--base-fz);
+  line-height: var(--base-text-line-height);
   text-align: center;
   letter-spacing: var(--primary-letter-spacing);
   color: var(--secondary-dark-color);
@@ -852,7 +870,7 @@ button:focus {
 .modal-label {
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: var(--button-letter-spacing);
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--primary-grey-color);
   display: block;
   margin-bottom: 4px;
@@ -866,8 +884,8 @@ button:focus {
 .modal-form-input {
   width: 100%;
   height: 40px;
-  border: 1px solid var(--backdrop-bg-color, rgba(46, 47, 66, 0.4));
-  border-radius: 4px;
+  border: 1px solid var(--backdrop-inputs-color, rgba(46, 47, 66, 0.4));
+  border-radius: var(--primary-bd-rad);
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
@@ -896,11 +914,11 @@ button:focus {
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: var(--button-letter-spacing);
-  color: var(--backdrop-bg-color);
+  letter-spacing: var(--secondary-letter-spacing);
+  color: var(--backdrop-inputs-color);
   background-color: transparent;
-  border: 1px solid var(--backdrop-bg-color, rgba(46, 47, 66, 0.4));
-  border-radius: 4px;
+  border: 1px solid var(--backdrop-inputs-color, rgba(46, 47, 66, 0.4));
+  border-radius: var(--primary-bd-rad);
   padding: 8px 16px;
   outline: transparent;
   resize: none;
@@ -930,7 +948,7 @@ button:focus {
   display: block;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: var(--button-letter-spacing);
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--primary-grey-color);
 }
 
@@ -941,8 +959,8 @@ button:focus {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--backdrop-bg-color);
-  border-radius: 2px;
+  border: 1px solid var(--backdrop-inputs-color);
+  border-radius: var(--secondary-bd-rad);
   fill: transparent;
   transition: background-color var(--transition-timing),
     border var(--transition-timing), fill var(--transition-timing);
@@ -964,14 +982,14 @@ button:focus {
   height: 56px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.5;
+  line-height: var(--base-text-line-height);
   color: var(--primary-light-color);
   background-color: var(--primary-accent-color, #4d5ae5);
   border: none;
-  border-radius: 4px;
+  border-radius: var(--primary-bd-rad);
   transition: background-color var(--transition-timing);
 
-  /* box-shadow: var(--box-shadow-button); */
+  /* box-shadow: var(--box-shadow-hero-footer); */
 }
 
 /* MODAL hover, focus, active, checked */
