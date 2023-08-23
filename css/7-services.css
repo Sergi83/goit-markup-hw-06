@@ -1,0 +1,21 @@
+/* ====== SERVICES ====== */
+
+.services {
+  padding-bottom: 120px;
+}
+
+.services-header {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondary-dark-color);
+}
+
+.services-list {
+  display: flex;
+  gap: 24px;
+}
+
+/* ====== /SERVICES ====== */

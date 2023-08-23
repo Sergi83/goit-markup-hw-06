@@ -1,0 +1,72 @@
+/* MODAL hover, focus, active, checked */
+
+/* close modal button */
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  border: none;
+}
+
+.modal-close-btn:hover .close-btn-icon,
+.modal-close-btn:focus .close-btn-icon {
+  fill: var(--primary-light-color);
+  /* stroke: var(--primary-light-color); */
+}
+
+/* submit button */
+.modal-form-btn:active,
+.modal-form-btn:focus {
+  outline: none;
+}
+
+/* form input, textarea */
+.modal-form-input:hover,
+.modal-form-textarea:hover {
+  border-color: var(--primary-accent-color);
+}
+
+.modal-form-input:focus,
+.modal-form-textarea:focus,
+.modal-form-input:active,
+.modal-form-textarea:active {
+  border-color: var(--primary-accent-color);
+}
+
+.form-input-icon:hover,
+.form-input-icon:active {
+  fill: var(--primary-accent-color);
+}
+
+.modal-form-input:hover + .form-input-icon,
+.modal-form-input:focus + .form-input-icon,
+.modal-form-input:active + .form-input-icon {
+  fill: var(--primary-accent-color);
+}
+
+/* checkbox hover, focused, checked */
+.checkbox-container:hover {
+  cursor: pointer;
+}
+
+.modal-checkbox-hidden:hover + .modal-checkbox-label > .checkbox-container {
+  border-color: var(--secondary-accent-color);
+  cursor: pointer;
+}
+
+.modal-checkbox-hidden:focus + .modal-checkbox-label > .checkbox-container {
+  border-color: var(--secondary-accent-color);
+}
+
+.modal-checkbox-hidden:checked + .modal-checkbox-label > .checkbox-container {
+  background-color: var(--secondary-accent-color);
+  border: none;
+  fill: var(--secondary-light-color);
+  border-color: var(--secondary-accent-color);
+}
+
+.modal-checkbox-hidden:checked
+  + .modal-checkbox-label
+  > .checkbox-container
+  > .checkbox-icon {
+  fill: var(--primary-light-color);
+}
+/* /MODAL hover, focus, active, checked */

@@ -1,0 +1,44 @@
+/* ====== HERO ====== */
+
+.hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 1440px;
+  text-align: center;
+  background-color: var(--secondary-dark-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/1_hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-header {
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-light-color);
+}
+
+.hero-button {
+  min-width: 169px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
+  padding: 16px 32px;
+  display: block;
+  background-color: var(--primary-accent-color);
+  color: var(--primary-light-color);
+  box-shadow: var(--box-shadow-hero-footer);
+}
+
+/* ====== /HERO ====== */
