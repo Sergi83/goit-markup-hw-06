@@ -12,3 +12,6 @@
 
 /* ====== HEADER ====== */
 @import './layouts/header.css';
+
+/* ====== HERO ====== */
+@import './layouts/hero.css';
