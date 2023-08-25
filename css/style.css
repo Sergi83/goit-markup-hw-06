@@ -1,14 +1,15 @@
-/* ====== VARIABLES ====== */
-@import './1-variables.css';
+/* *====== VARIABLES ====== */
+@import './utils/1-variables.css';
 
+/* *COMMON STYLES */
 /* ====== cкидання стилів ====== */
-@import './2-reset.css';
-
+/* @import './2-reset.css'; */
 /* наслідування (inheritance) */
-@import './3-inheritance.css';
+/* @import './3-inheritance.css'; */
 
+/* *LAYOUTS */
 /* ====== PAGE HEADER ====== */
-@import './4-page-header.css';
+/* @import './4-page-header.css'; */
 
 /* ====== HERO ====== */
 @import './5-hero.css';
@@ -31,6 +32,7 @@
 /* ====== FOOTER ====== */
 @import './11-footer.css';
 
+/* *MODALS */
 /* ====== MODAL OPEN ====== */
 @import './12-modal-open.css';
 
