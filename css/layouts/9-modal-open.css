@@ -1,0 +1,135 @@
+/* MOBILE */
+@media screen and (max-width: 767.8px) {
+  /* ====== MODAL OPEN ====== */
+
+  /* ====== BACKDOP ====== */
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: var(--backdrop-inputs-color);
+    transition: opacity var(--transition-timing),
+      visibility var(--transition-timing);
+  }
+
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  /* ====== /BACKDOP ====== */
+  /* ====== MODAL ====== */
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 280px;
+    max-width: 392px;
+    min-height: 584px;
+    padding: 72px 16px 24px 16px;
+    border-radius: var(--primary-bd-rad);
+    background: var(--modal-bg-color);
+    box-shadow: var(--box-shadow-modal);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--transition-timing);
+  }
+
+  .modal-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    line-height: 0;
+    background-color: var(--accent-light-color);
+    border: 1px solid var(--close-icon-color);
+    border-radius: var(--round-bd-rad);
+    transition: background-color var(--transition-timing),
+      border var(--transition-timing);
+  }
+
+  .close-btn-icon {
+    fill: var(--secondary-dark-color);
+    /* stroke-width: 1px;
+  stroke: var(--secondary-dark-color); */
+    transition: fill var(--transition-timing);
+  }
+
+  /* ====== /MODAL OPEN ====== */
+}
+/* /MOBILE */
+/* TABLET, DESKTOP */
+@media screen and (min-width: 768px) {
+  /* ====== MODAL OPEN ====== */
+
+  /* ====== BACKDOP ====== */
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: var(--backdrop-inputs-color);
+    transition: opacity var(--transition-timing),
+      visibility var(--transition-timing);
+  }
+
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  /* ====== /BACKDOP ====== */
+  /* ====== MODAL ====== */
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+    border-radius: var(--primary-bd-rad);
+    background: var(--modal-bg-color);
+    box-shadow: var(--box-shadow-modal);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--transition-timing);
+  }
+
+  .modal-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    line-height: 0;
+    background-color: var(--accent-light-color);
+    border: 1px solid var(--close-icon-color);
+    border-radius: var(--round-bd-rad);
+    transition: background-color var(--transition-timing),
+      border var(--transition-timing);
+  }
+
+  .close-btn-icon {
+    fill: var(--secondary-dark-color);
+    /* stroke-width: 1px;
+  stroke: var(--secondary-dark-color); */
+    transition: fill var(--transition-timing);
+  }
+
+  /* ====== /MODAL OPEN ====== */
+}
+/* /TABLET, DESKTOP */

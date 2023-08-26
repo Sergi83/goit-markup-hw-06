@@ -28,8 +28,16 @@
 /* ====== CUSTOMERS ====== */
 @import './layouts/6-customers.css';
 
-/* ====== TEAM ====== */
+/* ====== PORTFOLIO ====== */
 @import './layouts/7-portfolio-page.css';
 
-/* ====== TEAM ====== */
+/* ====== FOOTER ====== */
 @import './layouts/8-footer.css';
+
+/* ====== MODAL ====== */
+@import './layouts/9-modal-open.css';
+@import './layouts/10-modal-form.css';
+@import './layouts/11-modal-additional-styles.css';
+
+/* ====== ANIMATION ====== */
+@import './utils/12-animation.css';
