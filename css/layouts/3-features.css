@@ -1,5 +1,8 @@
 /* ====== mobile ====== */
 @media screen and (max-width: 428px) {
+  .features-item-container {
+    display: none;
+  }
 }
 /* ====== /mobile ====== */
 /* ====== tablet sm ====== */
