@@ -93,6 +93,8 @@
   color: var(--secondary-dark-color);
 }
 
+/* PORTFOLIO STYLES */
+
 .portfolio-card-text {
   color: var(--primary-dark-color);
 }
