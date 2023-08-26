@@ -27,3 +27,9 @@
 
 /* ====== CUSTOMERS ====== */
 @import './layouts/6-customers.css';
+
+/* ====== TEAM ====== */
+@import './layouts/7-portfolio-page.css';
+
+/* ====== TEAM ====== */
+@import './layouts/8-footer.css';
