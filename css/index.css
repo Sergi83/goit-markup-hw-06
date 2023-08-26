@@ -18,3 +18,9 @@
 
 /* ====== FEATURES ====== */
 @import './layouts/3-features.css';
+
+/* ====== SERVICES ====== */
+@import './layouts/4-services.css';
+
+/* ====== TEAM ====== */
+@import './layouts/5-team.css';
