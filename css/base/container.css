@@ -1,22 +1,22 @@
 /* 
  */
-
-/* .container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1158px;
-  max-width: 1440px;
-} */
-
-@media screen and (max-width: 767.8px) {
+@media screen and (max-width: 427.8px) {
   .container {
-    max-width: 667px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 397px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 767.8px) {
+  .container {
+    max-width: 667px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -34,7 +34,7 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-    min-width: 1158px;
+    min-width: 1126px;
     max-width: 1440px;
     padding-left: 16px;
     padding-right: 16px;
