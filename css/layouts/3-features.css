@@ -1,0 +1,114 @@
+/* ====== mobile ====== */
+@media screen and (max-width: 768px) {
+  .features-item-container {
+    display: none;
+  }
+
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+
+  .features-list-item {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-item-container {
+  }
+  .features-item-icon {
+  }
+
+  .features-item-header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--secondary-dark-color);
+  }
+}
+/* ====== /mobile ====== */
+/* ====== tablet ====== */
+@media screen and (min-width: 768.2px) and (max-width: 1158px) {
+  .features-item-container {
+    display: none;
+  }
+
+  .features-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    row-gap: 72px;
+    min-width: 736px;
+  }
+
+  .features-list-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .features-item-icon {
+  }
+
+  .features-item-header {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--secondary-dark-color);
+  }
+}
+/* ====== /tablet ====== */
+/* ====== desktop ====== */
+@media screen and (min-width: 1158.2px) {
+  .features-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .features-list-item {
+    display: flex;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .features-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 112px;
+    background-color: var(--secondary-light-color);
+    border-radius: var(--primary-bd-rad);
+  }
+  .features-item-icon {
+  }
+
+  .features-item-header {
+    margin-bottom: 8px;
+    font-weight: var(--base-fw);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: var(--primary-letter-spacing);
+    color: var(--secondary-dark-color);
+  }
+}
+/* ====== /desktop ====== */

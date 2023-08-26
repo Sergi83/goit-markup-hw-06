@@ -1,0 +1,43 @@
+/* ====== VARIABLES ====== */
+@import './utils/variables.css';
+
+/* ====== COMMON STYLES ====== */
+@import './base/common.css';
+
+/* ====== SECTIONS ====== */
+@import './base/section.css';
+
+/* ====== CONTAINERS ====== */
+@import './base/container.css';
+
+/* ====== HEADER ====== */
+@import './layouts/1-header.css';
+
+/* ====== HERO ====== */
+@import './layouts/2-hero.css';
+
+/* ====== FEATURES ====== */
+@import './layouts/3-features.css';
+
+/* ====== SERVICES ====== */
+@import './layouts/4-services.css';
+
+/* ====== TEAM ====== */
+@import './layouts/5-team.css';
+
+/* ====== CUSTOMERS ====== */
+@import './layouts/6-customers.css';
+
+/* ====== PORTFOLIO ====== */
+@import './layouts/7-portfolio-page.css';
+
+/* ====== FOOTER ====== */
+@import './layouts/8-footer.css';
+
+/* ====== MODAL ====== */
+@import './layouts/9-modal-open.css';
+@import './layouts/10-modal-form.css';
+@import './layouts/11-modal-additional-styles.css';
+
+/* ====== ANIMATION ====== */
+@import './utils/12-animation.css';

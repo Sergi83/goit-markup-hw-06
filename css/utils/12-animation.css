@@ -1,0 +1,17 @@
+/* ANIMATION */
+
+@keyframes changeModalOpasity {
+  0% {
+    opacity: 100%;
+  }
+  33% {
+    opacity: 70%;
+  }
+  66% {
+    opacity: 30%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+/* /ANIMATION */

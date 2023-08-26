@@ -1,0 +1,102 @@
+/* ====== cкидання стилів ====== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ====== /cкидання стилів ====== */
+
+/* наслідування (inheritance) */
+
+body {
+  font-family: var(--primary-font);
+  font-size: var(--base-fz);
+  line-height: var(--base-text-line-height);
+  letter-spacing: var(--primary-letter-spacing);
+  color: var(--primary-dark-color);
+  background-color: var(--primary-light-color);
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+button {
+  font-style: normal;
+  font-size: var(--base-fz);
+  font-weight: var(--base-fw);
+  letter-spacing: var(--secondary-letter-spacing);
+  cursor: pointer;
+  border-radius: var(--primary-bd-rad);
+  transition: background-color var(--transition-timing);
+}
+
+button:hover,
+button:focus {
+  background-color: var(--secondary-accent-color);
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--secondary-accent-color);
+}
+
+.link:active {
+  text-decoration: underline;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-accent-color);
+}
+
+/* /наслідування (inheritance) */

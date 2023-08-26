@@ -1,0 +1,293 @@
+/* MOBILE */
+@media screen and (max-width: 767.8px) {
+  .team {
+    text-align: center;
+    background-color: var(--secondary-light-color);
+  }
+
+  .team-header,
+  .team-item-header {
+    color: var(--secondary-dark-color);
+    letter-spacing: var(--primary-letter-spacing);
+    text-transform: capitalize;
+  }
+
+  .team-header {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .team-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+  }
+
+  .team-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    background-color: var(--primary-light-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: var(--box-shadow-cards);
+    transition: box-shadow var(--transition-timing);
+  }
+
+  .team-name-blocks {
+    padding: 32px 0;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .team-item-header {
+    font-weight: var(--base-fw);
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .team-item-text {
+    line-height: var(--base-text-line-height);
+  }
+
+  .team-item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .team-item-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .team-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-accent-color);
+    border-radius: var(--round-bd-rad);
+    transition: background-color var(--transition-timing);
+  }
+
+  .team-link-icon {
+    fill: var(--secondary-light-color);
+  }
+}
+/* /MOBILE */
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1157.8px) {
+  .team {
+    text-align: center;
+    background-color: var(--secondary-light-color);
+  }
+
+  .team-header,
+  .team-item-header {
+    color: var(--secondary-dark-color);
+    letter-spacing: var(--primary-letter-spacing);
+    text-transform: capitalize;
+  }
+
+  .team-header {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .team-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 736px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    row-gap: 64px;
+  }
+
+  .team-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((528px - 24px) / 2);
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /* width: 264px; */
+    background-color: var(--primary-light-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: var(--box-shadow-cards);
+    transition: box-shadow var(--transition-timing);
+  }
+
+  .team-name-blocks {
+    padding: 32px 0;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .team-item-header {
+    font-weight: var(--base-fw);
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .team-item-text {
+    line-height: var(--base-text-line-height);
+  }
+
+  .team-item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .team-item-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .team-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-accent-color);
+    border-radius: var(--round-bd-rad);
+    transition: background-color var(--transition-timing);
+  }
+
+  .team-link-icon {
+    fill: var(--secondary-light-color);
+  }
+}
+/* /TABLET */
+/* DESKTOP */
+@media screen and (min-width: 1158px) {
+  .team {
+    text-align: center;
+    background-color: var(--secondary-light-color);
+  }
+
+  .team-header,
+  .team-item-header {
+    color: var(--secondary-dark-color);
+    letter-spacing: var(--primary-letter-spacing);
+    text-transform: capitalize;
+  }
+
+  .team-header {
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .team-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .team-item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-light-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: var(--box-shadow-cards);
+    transition: box-shadow var(--transition-timing);
+  }
+
+  .team-name-blocks {
+    padding: 32px 0;
+    width: 232px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .team-item-header {
+    font-weight: var(--base-fw);
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .team-item-text {
+    line-height: var(--base-text-line-height);
+  }
+
+  .team-item-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .team-item-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+
+  .team-social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-accent-color);
+    border-radius: var(--round-bd-rad);
+    transition: background-color var(--transition-timing);
+  }
+
+  .team-link-icon {
+    fill: var(--secondary-light-color);
+  }
+}
+/* /DESKTOP */
+
+/* hovers, active, focus */
+
+.team-item:hover {
+  box-shadow: var(--box-shadow-cards);
+}
+
+.team-social-link:hover,
+.team-social-link:focus,
+.team-social-link:active {
+  background-color: var(--secondary-accent-color);
+}
