@@ -1,5 +1,5 @@
 /* ====== VARIABLES ====== */
-@import './utils/1-variables.css';
+@import './utils/variables.css';
 
 /* ====== COMMON STYLES ====== */
 @import './base/common.css';
@@ -11,7 +11,10 @@
 @import './base/container.css';
 
 /* ====== HEADER ====== */
-@import './layouts/header.css';
+@import './layouts/1-header.css';
 
 /* ====== HERO ====== */
-@import './layouts/hero.css';
+@import './layouts/2-hero.css';
+
+/* ====== FEATURES ====== */
+@import './layouts/3-features.css';
