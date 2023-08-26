@@ -1,8 +1,8 @@
 /* 
  */
-@media screen and (max-width: 427.8px) {
+@media screen and (max-width: 428px) {
   .container {
-    max-width: 397px;
+    max-width: 398px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -10,9 +10,9 @@
   }
 }
 
-@media screen and (min-width: 428px) and (max-width: 767.8px) {
+@media screen and (min-width: 428.2px) and (max-width: 768px) {
   .container {
-    max-width: 667px;
+    max-width: 668px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157.8px) {
+@media screen and (min-width: 768.2px) and (max-width: 1158px) {
   .container {
     min-width: 736px;
     margin-left: auto;
@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158.2px) {
   .container {
     min-width: 1126px;
     max-width: 1440px;

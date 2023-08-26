@@ -1,5 +1,5 @@
 /* MOBILE */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .menu {
     display: none;
   }
@@ -152,7 +152,7 @@
 
 /* /MOBILE */
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768.2px) and (max-width: 1158px) {
   .mobile-menu-open-btn {
     display: none;
   }
@@ -244,7 +244,7 @@
 
 /* DESKTOP */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158.2px) {
   .mobile-menu-open-btn {
     display: none;
   }

@@ -1,0 +1,17 @@
+/* ====== mobile ====== */
+@media screen and (max-width: 428px) {
+}
+/* ====== /mobile ====== */
+/* ====== tablet sm ====== */
+
+@media screen and (min-width: 428.2px) and (max-width: 768px) {
+}
+/* ====== /tablet sm ====== */
+/* ====== tablet big ====== */
+@media screen and (min-width: 768.2px) and (max-width: 1158px) {
+}
+/* ====== /tablet big ====== */
+/* ====== desktop ====== */
+@media screen and (min-width: 1158.2px) {
+}
+/* ====== /desktop ====== */

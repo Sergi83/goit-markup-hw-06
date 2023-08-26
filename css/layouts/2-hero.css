@@ -1,6 +1,6 @@
 /* MOBILE */
 
-@media screen and (max-width: 767.8px) {
+@media screen and (max-width: 768px) {
   .hero {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -46,9 +46,9 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (max-width: 767.8px),
-  screen and (min-resolution: 2dppx) and (max-width: 767.8px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 767.8px) {
+@media screen and (min-resolution: 192dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppx) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
   .hero {
     background-color: var(--secondary-dark-color);
     background-image: linear-gradient(
@@ -60,7 +60,7 @@
 }
 
 /* TABLET */
-@media screen and (min-width: 768px) and (max-width: 1157.8px) {
+@media screen and (min-width: 768.2px) and (max-width: 1158px) {
   .hero {
     /* width: 100%; */
     padding-top: 112px;
@@ -106,9 +106,9 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157.8px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157.8px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157.8px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 768.2px) and (max-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 768.2px) and (max-width: 1158px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768.2px) and (max-width: 1158px) {
   .hero {
     background-color: var(--secondary-dark-color);
     background-image: linear-gradient(
@@ -120,7 +120,7 @@
 }
 
 /* DESKTOP */
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158.2px) {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -163,9 +163,9 @@
   }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-resolution: 2dppx) and (min-width: 1158px),
-  screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+@media screen and (min-resolution: 192dpi) and (min-width: 1158.2px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158.2px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1158.2px) {
   .hero {
     background-color: var(--secondary-dark-color);
     background-image: linear-gradient(
