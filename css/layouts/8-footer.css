@@ -151,8 +151,9 @@
   }
 
   .footer-container {
+    width: 584px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: baseline;
     flex-wrap: wrap;
     gap: 24px;

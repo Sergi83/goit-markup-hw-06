@@ -27,8 +27,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 280px;
-    max-width: 392px;
+    /* min-width: 280px; */
+    width: 392px;
     min-height: 584px;
     padding: 72px 16px 24px 16px;
     border-radius: var(--primary-bd-rad);

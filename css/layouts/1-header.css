@@ -1,3 +1,6 @@
+/* ====== VARIABLES ====== */
+/* @import '../utils/variables.css'; */
+
 /* MOBILE */
 @media screen and (max-width: 768px) {
   .menu {
@@ -100,23 +103,24 @@
   }
 
   /* address links */
-  .address-list {
+  .mobile-address-list {
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-bottom: 48px;
   }
 
-  .address-list-item:first-child > .address-list-link {
+  .mobile-address-list-item:first-child > .mobile-address-list-link {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: var(--primary-letter-spacing);
     text-transform: capitalize;
+    color: var(--primary-accent-color);
   }
 
-  .address-list-item:last-child > .address-list-link {
+  .mobile-address-list-item:last-child > .mobile-address-list-link {
     font-size: 20px;
     font-style: normal;
     font-weight: var(--base-fw);
@@ -236,6 +240,8 @@
   }
 
   .address-list-link {
+    font-size: 12px;
+    line-height: 1.7;
     color: var(--primary-dark-color);
     transition: color var(--transition-timing);
   }
