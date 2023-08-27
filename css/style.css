@@ -1,46 +1,19 @@
 /* *====== VARIABLES ====== */
-@import './utils/1-variables.css';
 
 /* *COMMON STYLES */
-/* ====== cкидання стилів ====== */
-/* @import './2-reset.css'; */
-/* наслідування (inheritance) */
-/* @import './3-inheritance.css'; */
 
 /* *LAYOUTS */
 /* ====== PAGE HEADER ====== */
-/* @import './4-page-header.css'; */
-
 /* ====== HERO ====== */
-@import './5-hero.css';
-
 /* ====== FEATURES ====== */
-@import './6-features.css';
-
 /* ====== SERVICES ====== */
-@import './7-services.css';
-
 /* ====== TEAM ====== */
-@import './8-team.css';
-
 /* ====== CUSTOMERS ======= */
-@import './9-customers.css';
-
 /* ====== PORTFOLIO PAGE ====== */
-@import './10-portfolio.css';
-
 /* ====== FOOTER ====== */
-@import './11-footer.css';
 
 /* *MODALS */
 /* ====== MODAL OPEN ====== */
-@import './12-modal-open.css';
-
 /* ====== MODAL FORM ====== */
-@import './13-modal-form.css';
-
 /* MODAL hover, focus, active, checked */
-@import './14-hover-focus-active-checked.css';
-
 /* ANIMATION (modal opasity) */
-@import './15-animation.css';
