@@ -4,7 +4,7 @@
 
   .portfolio {
     padding-top: 48px;
-    padding-bottom: 64px;
+    padding-bottom: 48px;
   }
 
   .portfolio-filters {
@@ -13,7 +13,7 @@
     flex-wrap: wrap;
     justify-content: start;
     align-items: center;
-    gap: 24px;
+    gap: 24px 16px;
   }
 
   /* PORTFOLIO CARDS */
@@ -77,16 +77,16 @@
 
   .portfolio {
     padding-top: 64px;
-    padding-bottom: 64px;
+    padding-bottom: 96px;
   }
 
   .portfolio-filters {
     margin-bottom: 64px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 16px 24px;
   }
 
   /* PORTFOLIO CARDS */
@@ -96,7 +96,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 48px 24px;
+    align-content: start;
+    gap: 72px 24px;
   }
 
   .portfolio-card {
@@ -148,7 +149,7 @@
   /* ====== PORTFOLIO PAGE ====== */
 
   .portfolio {
-    padding-top: 96px;
+    padding-top: 100px;
     padding-bottom: 120px;
   }
 
